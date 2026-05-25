@@ -35,7 +35,6 @@ section {
     border-radius: 15px;       /* Membuat sudut kotak melengkung */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan halus */
 }
-}
 .foto-container {
     margin-top: -50px; /* Membuat foto sedikit tumpang tindih ke atas header */
     margin-bottom: 20px;
