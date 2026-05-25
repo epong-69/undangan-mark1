@@ -35,3 +35,16 @@ section {
     border-radius: 15px;       /* Membuat sudut kotak melengkung */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan halus */
 }
+}
+.foto-container {
+    margin-top: -50px; /* Membuat foto sedikit tumpang tindih ke atas header */
+    margin-bottom: 20px;
+}
+.foto-pengantin {
+    width: 180px;            /* Atur lebar foto */
+    height: 180px;           /* Atur tinggi agar sama dengan lebar (kotak) */
+    object-fit: cover;       /* Memastikan gambar terpotong rapi, tidak gepeng/tarik */
+    border-radius: 50%;      /* Membuat foto menjadi berbentuk BULAT sempurna */
+    border: 8px solid white; /* Memberikan bingkai putih tebal seperti pigura */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Memberikan efek bayangan lembut agar foto "pop up" */
+}
