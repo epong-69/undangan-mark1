@@ -1,0 +1,37 @@
+/* 1. Pengaturan Dasar Halaman */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f8f5f2; /* Warna latar krem lembut */
+    color: #333333;            /* Warna teks abu-abu gelap */
+    margin: 0;
+    padding: 0;
+    text-align: center;        /* Membuat semua teks berada di tengah */
+}
+
+/* 2. Menghias Bagian Pembuka (Header) */
+header {
+    background-color: #d4a373; /* Warna latar cokelat estetik */
+    color: white;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;          /* Membesarkan ukuran teks utama */
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+/* 3. Menghias Kotak Detail Acara (Main & Section) */
+main {
+    padding: 40px 20px;
+}
+
+section {
+    background-color: white;
+    max-width: 400px;          /* Membatasi lebar kotak agar rapi */
+    margin: 0 auto;            /* Membuat kotak berada tepat di tengah layar */
+    padding: 30px;
+    border-radius: 15px;       /* Membuat sudut kotak melengkung */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan halus */
+}
